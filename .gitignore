@@ -1,0 +1,3 @@
+*/cache/module_*
+*.ipynb_checkpoints*
+*__pycache__*
