@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from cuseries.ED.stream_dists_helpers import cumsum
-from cuseries.ED.stream_dists_helpers import mnorm, znorm
+from rapidAligner.ED.stream_dists_helpers import cumsum
+from rapidAligner.ED.stream_dists_helpers import mnorm, znorm
 import cupy as cp
 import math
 

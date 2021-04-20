@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from cuseries.ED.stream_dists_fft import fft_sdist, fft_mdist, fft_zdist
-from cuseries.ED.stream_dists_kernels import sdist_kernel, mdist_kernel, zdist_kernel
-from cuseries.ED.stream_dists_helpers import mnorm, znorm
+from rapidAligner.ED.stream_dists_fft import fft_sdist, fft_mdist, fft_zdist
+from rapidAligner.ED.stream_dists_kernels import sdist_kernel, mdist_kernel, zdist_kernel
+from rapidAligner.ED.stream_dists_helpers import mnorm, znorm
 
 import cupy as cp
 from numba import cuda

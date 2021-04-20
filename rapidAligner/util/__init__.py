@@ -12,6 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from cuseries.util import *
-from cuseries.ED import *
-
+from rapidAligner.util.Timer import cudaTimer as Timer
+from rapidAligner.util.Loader import *
